@@ -1,0 +1,21 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "This is my Demo Project on Node",
+  "main": "main.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "scripts": {
+    "start": "node service.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pbadala",
+  "license": "ISC"
+}
